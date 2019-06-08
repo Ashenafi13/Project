@@ -1,1 +1,1 @@
-# This project created by Ashenafi Wube
+# This project developed by Ashenafi Wube
