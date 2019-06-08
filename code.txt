@@ -1,0 +1,28 @@
+             
+!***in account.js **!
+if(document.getElementById('program1').checked){  
+                var program=$('#program1').val();
+                }else{
+                     var program=$('#program2').val();
+                }
+
+
+
+
+!*************in Create_account.php*********!
+ <div class="form-group">
+    <label for="inputAddress2">Program</label><br/>
+   <div class="form-check form-check-inline">
+       <label class="form-check-label" for="program">post graduate</label>
+       
+       <input class="form-check-input" type="radio" name="program" id="program1" value="post graduate">
+  
+</div>
+<div class="form-check form-check-inline">
+     <label class="form-check-label" for="program">Regular</label>
+     
+  <input class="form-check-input" type="radio" name="program" id="program2" value="Regular" >
+ 
+</div>
+   
+  </div>
